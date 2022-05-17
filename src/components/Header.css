@@ -1,0 +1,245 @@
+@media (max-width:768px) {
+
+* {
+    background-color:beige;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: khaki;
+    height: 60px;
+}
+
+.intoheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: khaki;
+    width: 90%;
+    height: 90%;
+}
+
+.left {
+    display: inline-flex;
+    background-color: khaki;
+}
+
+.right {
+    display: none;
+    background-color: khaki;
+}
+
+.about {
+    background-color: khaki;
+    margin-right: 20px;
+}
+
+.rest {
+    white-space: pre;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.but {
+    display: block;
+    border-radius: 5px;
+    width: 70px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+
+.reright {
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+}
+
+.about1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color:khaki;
+    padding-top: 5px;
+    width: 80%;
+    margin-top: 5px;
+    display: block;
+}
+
+.about2 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color:khaki;
+    padding-top: 5px;
+    width: 80%;
+    margin-top: 5px;
+    display: block;
+}
+
+.about3 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color:khaki;
+    padding-top: 5px;
+    width: 80%;
+    margin-top: 5px;
+    display: block;
+}
+
+
+}
+
+@media (min-width: 768px) {
+
+    * {
+        background-color:beige;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: center;
+        background-color: khaki;
+        height: 60px;
+    }
+    
+    .intoheader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: khaki;
+        width: 90%;
+        height: 90%;
+    }
+    
+    .left {
+        display: inline-flex;
+        background-color: khaki;
+    }
+    
+    .right {
+        display: inline-flex;
+        background-color: khaki;
+    }
+    
+    .about {
+        background-color: khaki;
+        margin-right: 20px;
+    }
+    
+    .rest {
+        white-space: pre;
+        font-size: 100px;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+
+.but {
+    display: none;
+    /* border-radius: 5px;
+    width: 70px;
+    height: 25px; */
+}
+    
+    
+.reright {
+    /* display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px; */
+    display: none;
+}
+
+.about1 {
+    /* color: beige;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color:beige;
+    padding-top: 5px;
+    width: 80%; */
+    display: none;
+}
+
+.about2 {
+    /* color: beige;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color:beige;
+    padding-top: 5px;
+    width: 80%;
+    margin-top: 5px; */
+    display: none;
+}
+
+.about3 {
+    /* color: beige;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color:beige;
+    padding-top: 5px;
+    width: 80%;
+    margin-top: 5px; */
+    display: none;
+}
+
+}
+
+.reright {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+}
+
+.about1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color:khaki;
+    padding-top: 5px;
+    width: 80%;
+    margin-top: 5px;
+
+}
+
+.about2 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color:khaki;
+    padding-top: 5px;
+    width: 80%;
+    margin-top: 5px;
+}
+
+.about3 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color:khaki;
+    padding-top: 5px;
+    width: 80%;
+    margin-top: 5px;
+
+}
+
+
